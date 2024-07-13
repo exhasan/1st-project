@@ -17,4 +17,6 @@ int main()
     int sum=0;
     for(auto x: arr) sum+=x;
     cout<<sum<<endl;
+    int p=sum+10;
+    cout<<p<<endl;
 }
